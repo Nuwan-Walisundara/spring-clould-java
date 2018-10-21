@@ -3,11 +3,12 @@
 *.war
 *.ear
 *.class
-
+*.gradle
 # eclipse specific git ignore
 *.pydevproject
 .project
 .metadata
+.gradle/**
 bin/**
 tmp/**
 tmp/**/*
