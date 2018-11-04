@@ -6,15 +6,14 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "some")
 public class ConfigClientAppConfiguration {
-	private String properties;
+	private String property;
 
-	public String getProperties() {
-		return properties;
+	public String getProperty() {
+		return property;
 	}
 
-	
-	public void setProperties(String properties) {
-		this.properties = properties;
+	public void setProperty(String property) {
+		this.property = property;
 	}
 
 }

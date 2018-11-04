@@ -10,6 +10,7 @@
 .metadata
 .gradle/**
 bin/**
+build/**
 tmp/**
 tmp/**/*
 *.tmp
